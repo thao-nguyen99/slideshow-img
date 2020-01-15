@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Slide</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="slide-container">
+  <div class="slide fade">
+   <div class="num-text">1/5</div>
+   <img src="img/img1.png" style="width: 100%" alt="1">
+  </div>
+  <div class="slide fade">
+    <div class="num-text">2/5</div>
+    <img src="img/img2.png" style="width: 100%" alt="1">
+   </div>
+  <div class="slide fade">
+    <div class="num-text">3/5</div>
+    <img src="img/img3.png" style="width: 100%" alt="1">
+    </div>
+  <div class="slide fade">
+      <div class="num-text">4/5</div>
+      <img src="img/img4.png" style="width: 100%" alt="1">
+     </div>
+  <div class="slide fade">
+       <div class="num-text">5/5</div>
+       <img src="img/img5.png" style="width: 100%" alt="1">
+  </div>
+ <!--button-->
+ <a class="pre">&#10094;</a>
+<a class="next">&#10095;</a>
+ 
+ <!--dot-->
+ <div class="dot-sec">
+ <span class="dot" onClick="currentDot(0)"></span>
+ <span class="dot" onClick="currentDot(1)"></span>
+ <span class="dot" onClick="currentDot(2)"></span>
+ <span class="dot" onClick="currentDot(3)"></span>
+ <span class="dot" onClick="currentDot(4)"></span>
+</div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
